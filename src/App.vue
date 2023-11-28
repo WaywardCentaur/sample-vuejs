@@ -15,7 +15,7 @@
         color="primary"
         @click="dialog = true"
         >
-          Open Dialog
+          PBS
         </v-btn>
 
         <v-dialog

@@ -1,9 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './assets/index.css';
+import './assets/image.png';
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css' 
+@import '~vuetify/src/stylus/main'
+
 
 Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
-}).$mount('#app')
+}).use(Vuetify).$mount('#app')
